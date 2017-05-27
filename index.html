@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Rock,Paper,Scissors</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Wayne Cheng">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="https://che.ng/assets/w-favicon.ico">
+
+	<!-- Google Font Links -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+
+	<!-- CSS Links -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+
+<div class="stat-window">
+	<p class="stat spectators">
+		People Watching: <span id="num-spectators" class="target"></span>
+		</p>
+	<p class="stat-title">Players</p>
+	<ul class="playerList">
+		<!-- 1. Wayne Cheng -->
+		<li class="player"><span id="queue-num"></span>: <span id="playerName"></span></li>
+	</ul>
+</div>
+
+
+<form>
+	<input id="playerNameInput" type="text" name="playerName" placeholder="Your Name">
+	<input id="enter" type="button" name="enter" value="enter">
+</form>
+
+
+
+
+
+
+
+<!-- JS Links -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+<script src="assets/javascript/app.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
